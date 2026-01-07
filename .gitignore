@@ -1,0 +1,30 @@
+# --- Rust ---
+/target/
+/debug/
+**/*.rs.bk
+Cargo.lock # Optional: Keep this if you want reproducible builds (Recommended for Apps/Bots), remove if building a Library.
+
+# --- Foundry / Solidity ---
+/cache/
+/out/
+/broadcast/
+/artifacts/
+/via-ir/
+
+# --- Environment & Secrets (CRITICAL) ---
+.env
+.env.local
+.env.*
+!.env.example
+mnemonic.txt
+wallet.json
+
+# --- IDEs & Editors ---
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# --- System ---
+.DS_Store
+Thumbs.db
