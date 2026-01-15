@@ -2,7 +2,6 @@
 /target/
 /debug/
 **/*.rs.bk
-Cargo.lock # Optional: Keep this if you want reproducible builds (Recommended for Apps/Bots), remove if building a Library.
 
 # --- Foundry / Solidity ---
 /cache/
